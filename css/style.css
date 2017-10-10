@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    /*border: 1px solid green;*/
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+video {
+    width: 100%;
+}
+
+.captions-wrap {
+    margin: 30px;
+}
+
+span.sub-time {
+    display: none;
+}
+
+span.playing {
+    color: #FDAC43;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    body {
+        font-size: 20px;
+    }
+
+    .wrapper {
+        width: 80%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .video-wrap {
+        margin: 80px 0 0;
+    }
+
+    .captions-wrap {
+        margin: 30px 0;
+    }
+}
+
+
+
+
